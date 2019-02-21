@@ -91,20 +91,8 @@ These plots show the amount of revenue that the schools generated at the federal
 
 
 ```python
-## Plotting California's Total Instructional Expenditure VS Number Of Students Enrolled
 
-plt.scatter(CA_isolated['INSTRUCTION_EXPENDITURE'],CA_isolated['GRADES_ALL_G'], color= 'purple', label = 'line 1')
-plt.title('California\'s Instruction Expenditure v # Students')
-plt.xlabel('Number of Students')
-plt.ylabel('Dollars (Tens of Millions)')
-
-
-plt.show()
 ```
-
-
-![png](output_9_0.png)
-
 
 
 
